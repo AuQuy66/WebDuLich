@@ -1,0 +1,47 @@
+.stuck {
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    top: 0
+}
+.logo {
+    line-height: 1;
+    margin: 0
+}
+.logo img{
+    max-height: 80px;
+}
+.logo a {
+    color: #446084;
+    display: block;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo img {
+    display: block;
+    width: auto
+}
+.logo-center .flex-left {
+    flex: 1 1 0%;
+    order: 1
+}
+
+.logo-center .logo {
+    margin: 0 30px;
+    order: 2;
+    text-align: center
+}
+
+.logo-center .logo img {
+    margin: 0 auto
+}
+
+.logo-center .flex-right {
+    flex: 1 1 0%;
+    order: 3
+}
