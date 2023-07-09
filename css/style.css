@@ -76,13 +76,6 @@ span{
   transform: translateY(-3px);
 
 }
-#menu-icon{
-  color: var(--main-color);
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 10001;
-  display: none;
-}
 section{
   padding: 70px 17% 60px;
 }
@@ -135,42 +128,100 @@ section{
   background: transparent;
   color: var(--text-color);
 }
-
-/* dia diem vui choi */
-.diadiem{
-  text-align: left;
-  font-size: 100%;
-  color: red;
-  font-size: 160%;
+header.sticky{
+  padding:8px 17%;
+  background:transparent;
+  backdrop-filter: blur(35px);
 }
-  .a1{
-    width: 100%;
-    text-align: center;
-    font-size: 140%;
-  }
-  .a1 img{
-    width: 100%;
-    border-radius:5%;
-  }
-  a{
-    text-decoration: none;
-    font-size: 90%;
-    color: black;
-  }
-  .vuichoi{
-    display: flex;
-  }
-  .a2{
-    width:70%;
-    margin-left: 15px;
-  }
-  .a2 img{
-    width:30%;
-    border-radius:10%;
-    
-  }
-  .a21{
-     font-size: 120%;
-     text-align: center;
+.feature-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+  align-items: center;
+  text-align: center;
+  gap:3rem;
+}
+.row-img{
+  overflow:hidden;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.row-img img{
+  width: 100%;
+  display: block;
+  transition: transform 0.7s;
+}
+.row-img img:hover{
+  transform: scale(1.2);
+}
+.feature-content h4{
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all.50s ease;
+}
+.feature-content h4:hover{
+  color: var(--main-color);
+}
 
-  }
+.holiday{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap:9rem;
+}
+.holiday-img img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.holiday-text h5{
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+
+}
+.holiday-text h2{
+  font-size: var(--h2-font);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.holiday-text p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  margin-bottom: 35px;
+}
+
+/* footer */
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  gap:2rem;
+}
+.footer-box{
+  display: flex;
+  flex-direction: column;
+}
+.footer-box h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.footer-box a{
+  color: gainsboro;
+  margin-bottom: 0.8rem;
+  transition: all .50s ease;
+}
+.footer-box a:hover{
+  transform: translateX(-5px);
+  color: var(--text-color);
+}
