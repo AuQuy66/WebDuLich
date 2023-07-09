@@ -3,123 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Travel Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- boxicons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,800&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="wrapper">
-        <div class="header-wrapper stuck">
-            <div class="header-inner flex-row container logo-center medium-logo-center" role="navigation">
-                <!-- Logo -->
-                <div id="logo" class="flex-col logo">
-                    <!-- Header logo -->
-                    <a href="#" title="Hãy để chuyến đi của bạn trở nên thú vị" rel="home">
-                        <img width="500" height="281" src="https://hellodulich.com/wp-content/uploads/2021/06/logo-hello-du-lich-1.png" class="header-logo header-logo lazyloaded" alt="Nơi chia sẻ những kinh nghiệm du lịch" data-ll-status="loaded">
-                    </a>
-                </div>
-                <div class="menu-wrapper menu-gold" style="">
-                    <ul class="menu">
-                      <li><a href=""> Home</a></li>
-                      <li>
-                        <a href=""> Lựa chọn điểm đến</a>
-                        <ul>
-                          <li><a href=""> Du lịch miền Bắc</a></li>
-                          <li><a href=""> Du lịch miền Trung</a></li>
-                          <li><a href=""> Du lịch miền Nam</a></li>
-                        </ul>
-                      </li>
-                      <li><a href=""> Cẩm nang du lịch</a></li>
-                      <li>
-                        <a href=""> Địa điểm ăn uống</a>
-                        <ul>
-                          <li><a href=""> Section 1</a></li>
-                          <li><a href=""> Section 2</a></li>
-                          <li>
-                            <a href=""> Section 3</a>
-                            <ul>
-                              <li><a href=""> Group 1</a></li>
-                              <li>
-                                <a href=""> Group 2</a>
-                                <ul>
-                                  <li><a href=""> 1</a></li>
-                                  <li><a href=""> 2</a></li>
-                                  <li><a href="">3 </a></li>
-                                </ul>
-                              </li>
-                              <li><a href=""> Section 4</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href=""> Địa điểm du lịch</a></li>
-                      <li><a href=""> Địa điểm cư trú</a></li>
-                    </ul>
-                  </div>
+    <!-- header design -->
+    <header>
+        <a href="#" class="logo">Tra<span>Vel</span></a>
+        <ul class="navbar">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Thông tin</a></li>
+            <li><a href="#">Liên hệ với chúng tôi</a></li>
+            <li><a href="#">Địa điểm du lịch</a></li>
+            <li><a href="#">Địa điểm ăn uống</a></li>
+        </ul>
 
-
-                <div class="flex-col hide-for-medium flex-left"> 
-                    
-                </div>
-                <div class="flex-col hide-for-medium flex-right"></div>
-                <div class="flex-col show-for-medium flex-right"></div>
-            </div>
-            <main id="main">
-                <img src="https://cdn3.ivivu.com/2022/08/v%E1%BB%8Bnh-h%E1%BA%A1-long-ivivu.jpg" width="500px" height="100%">
-                <div class="section-content relavtive">
-                <h1>
-                    <span style="color: red;font-size: 140%;"> Hello du lịch Việt Nam </span>
-                </h1>
-                <div class="text" id="text-1931637224">
-                    <p>
-                        <span style="color:#000000; font-size:110%">
-                            <strong>Hello du lịch Việt Nam</strong>
-                            " là blog miễn phí chia sẻ những thông tin du lịch hữu ích cho bạn. Việt Nam là một quốc gia tiềm tàng về thiên nhiên, ẩm thực, cơ sở hạ tầng rất phong phú. Vì thế mình muốn chia sẻ cho các bạn những kinh nghiệm du lịch của mình. Để hy vọng bạn sẽ có một trải nghiệm tốt nhất tại nơi mà bạn sắp đến."
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <div>
-
-            </div>
-            </main>
+        <div class="h-right">
+            <a href="#">Follow us</a>
+            <a><i class="ri-facebook-fill"></i></a>
+            <a><i class="ri-instagram-line"></i></a>
+            <a><i class="ri-github-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-    </div>
-    <div class="diadiem" >
-    <b>Địa Điểm Vui Chơi</b> 
-    <hr>
-  </div>
+    </header>
+    <!-- Home section design -->
+    <section class="home">
+        <div class="home-text">
+            <h4>Khám phá những địa danh và món ngon nổi tiếng nhất</h4>
+            <h1>Chúng tôi sẽ cho bạn biết<br> </h1>
+            <p>Việt Nam có hơn 41.000 di tích,<br> thắng cảnh trong đó có hơn 4.000 di tích được xếp hạng di tích quốc gia và hơn 9.000 di tích được xếp hạng cấp tỉnh. </p>
+            <a href="#" class="btn"> Xem thêm</a>
+        </div>
+    </section>
 
-  <div class="vuichoi">
-     <div class="a1">
-        <img src="https://6f3ebe2ff971707.cmccloud.com.vn/tour/wp-content/uploads/2022/01/dia-diem-vui-choi-ha-noi-vao-buoi-toi.png">
-        <br>
-        <a href="#"> <b>Phố cổ Hội An - Thành phố cổ đẹp hàng đầu Châu Á </b></a>
-      </div>
-      <div class="a2">
-        <div class="a21" style="display: flex;">
-          <img src="https://dulich9.com/wp-content/uploads/2019/05/Dia-diem-vui-choi-o-Ha-Noi-07.jpg">
-           <a href="#"><b>&nbsp;Thủy cung Vinpearl Aquarium Times City </b></a>
-           
-         </div>
-         <hr>
-         
-         <div class="a21" style="display: flex;">
-          <img src="https://dulich9.com/wp-content/uploads/2019/05/Dia-diem-vui-choi-o-Ha-Noi-15.jpg">
-           <a href="#"><b> &nbsp; Công viên Thống Nhất </b></a>
-         </div>
-         <hr>
-         <div class="a21" style="display: flex;">
-          <img src="https://dulich9.com/wp-content/uploads/2019/05/Dia-diem-vui-choi-o-Ha-Noi-23.jpg">
-           <a href="#"><b> &nbsp; Đài quan sát Landmark Sky 72 </b></a>
-         </div>
-         <hr>
-         <div class="a21" style="display: flex;">
-          <img src="https://tiki.vn/blog/wp-content/uploads/2023/02/m-JH6hnz-ToXENImWKv8PiF3Y-f3EfZKVi2AFI2xnmLNVMXgZMBCl-Mub_OZieU8SPIEaQdV8veptSxS1_vWLoD7NjNMigj-QJJHvt9YYkPcpgewvXIpDra9SEwiVi5VTkzE1G7pVTvE5y2Ru5p5_Io.png">
-           <a href="#"> <b> &nbsp; Nhà Hát Lớn Hà Nội </b></a>
-         </div>
-         <hr>
-        </div> 
-  </div>
+    <!-- feature section design -->
+    <section class="feature">
+        <div class="feature-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/12/87/bd/halong-bay.jpg?w=1200&h=-1&s=1">
+                </div>
+                <h4>Hạ Long</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="https://media.vov.vn/sites/default/files/styles/large/public/2021-04/1_11_0.jpg">
+                </div>
+                <h4>Phú Quốc</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="https://vietsensetravel.com/view/at_nhung-dia-diem-du-lich-o-cao-bang--anh-1_a6e1172c97387bf585e5b20cb2f04669.jpg">
+                </div>
+                <h4>Cao Bằng</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="https://ik.imagekit.io/tvlk/blog/2022/11/kinh-nghiem-du-lich-ha-giang-7-1024x684.jpg?tr=dpr-2,w-675">
+                </div>
+                <h4>Hà Giang</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="https://vcdn1-dulich.vnecdn.net/2022/05/06/rung-duoc-Ca-Mau-png-7781-1649-7887-7870-1651827806.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=TCRMbQrbJg1iKrAsFM8VOQ">
+                </div>
+                <h4>Cà Mau</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+
+
 </body>
 </html>
