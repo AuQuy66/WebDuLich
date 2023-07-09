@@ -166,7 +166,7 @@ header.sticky{
 .feature-content h4:hover{
   color: var(--main-color);
 }
-
+/*holiday section design*/
 .holiday{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -200,7 +200,7 @@ header.sticky{
   color: #ffffffab;
   margin-bottom: 35px;
 }
-
+/*Tour content*/
 .center-text{
   text-align: center;
 }
