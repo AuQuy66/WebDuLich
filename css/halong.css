@@ -1,4 +1,36 @@
 
 .home{
     background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(../image/halong2.jpg) ;
+    
+}
+.content{
+    font-size: 20px;
+}
+.figcaption{
+ font-style: italic;
+ text-align: center;
+
+}
+.content-text{
+    flex-grow: 1;
+}
+.content-right h1{
+    border-bottom: 3px solid gainsboro;
+    margin-bottom:30px; 
+}
+.content-right{
+    flex: 0 0 300px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.point{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card-image{
+    margin-right: 5px;
+}
+.card-text{
+    font-size: 17px;
 }
