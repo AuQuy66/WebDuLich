@@ -6,12 +6,16 @@
     <title>Du lịch Hạ Long</title>
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" href="../css/halong.css">
+    <link rel="stylesheet" href="../css/feature.css">
 
     <!-- boxicons link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,25 +24,72 @@
 <body>
     <!-- header design -->
     <header class="sticky">
-        <a href="#" class="logo">Tra<span>Vel</span></a>
-        <ul class="navbar">
-            <li><a href="../index.html">Trang chủ</a></li>
-            <li><a href="#">Thông tin</a></li>
-            <li><a href="#">Liên hệ với chúng tôi</a></li>
-            <li><a href="#">Địa điểm du lịch</a></li>
-            <li><a href="eat.html">Địa điểm ăn uống</a></li>
-        </ul>
-
-        <div class="h-right">
-            <a href="#">Follow us</a>
-            <a><i class="ri-facebook-fill"></i></a>
-            <a><i class="ri-instagram-line"></i></a>
-            <a href="https://github.com/AuQuy66/WebDuLich"><i class="ri-github-fill"></i></a>
-            
+        <div class="grid">
+            <div class="header__navbar">
+                <div class="header-navbar__logo">
+                    <a href="#" class="logo">Tra<span>Vel</span></a>
+                </div>
+                <div class="header__category">
+                    <div class="grid">
+                        <div class="grid__row">
+                            <ul class="header-category__list">
+                                <li class="header-category__list-item">
+                                    <a href="../index.html" class="header-category__list-item-link">
+                                        Trang chủ
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="" class="header-category__list-item-link">
+                                        Thông tin
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="" class="header-category__list-item-link">
+                                        Liên hệ với chúng tôi
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="" class="header-category__list-item-link">
+                                        Địa điểm du lịch
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="./page/eat.html" class="header-category__list-item-link">
+                                        Địa điểm ăn uống
+                                    </a>
+                                </li>
+                            </ul>
+    
+                            <ul class="header-info__list">
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        Follow US
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="https://github.com/AuQuy66/WebDuLich" class="header-info__list-item-link">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Home section design -->
-    <section class="home">
+    <section class="home" style="    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(../image/halong2.jpg) ;">
         <div class="home-text">
             <h4>1 trong 7 kỳ quan thiên nhiên của thế giới</h4>
             <h1>VỊNH HẠ LONG<br> </h1>
@@ -278,11 +329,73 @@
 
                 </div>
             </div>
-            <div class=""></div>
-
         </div>
-        
     </section>
+    <!-- location section design -->
+    <section class="location">
+        <h1>Địa điểm du lịch</h1>
+        <div class="container">
+            <button id="left" class="carousel-button"><i class="fa-solid fa-angle-left"></i></button>
+            <div class="carousel">
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/06/test-16.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/06/test-14.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/06/test-15.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/09/du-lich-da-nang-icon.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/09/du-lich-quy-nhon-icon.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+                <div class="destination">
+                    <img src="https://hellodulich.com/wp-content/uploads/2021/09/du-lich-ninh-binh-icon.jpg" alt="" class="location">
+                    <div class="overlay"></div>
+                    <div class="content-location">
+                        <h3 class="name-location">
+                            Nha trang
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <button id="right" class="carousel-button"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </section>
+
 
     <!-- footer section design -->
     <section class="footer">
@@ -312,6 +425,6 @@
     </section>
 
     <!-- custom js file link -->
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
