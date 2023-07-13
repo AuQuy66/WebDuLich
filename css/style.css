@@ -23,58 +23,109 @@ body{
   color: var(--text-color);
   background: var(--bg-color);
 }
-header{
-  position: fixed;
-  top:0;
-  right: 0;
-  z-index:1000;
-  width: 100%;
-  background: transparent;
-  padding: 27px 17%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: all.50s ease;
-
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
 }
-.logo{
+
+.grid__row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
   font-size: 33px;
   color: var(--text-color);
   font-weight: 700;
+  margin-right: 10px;
+  text-decoration: none;
 }
-span{
+
+.header__category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
   color: var(--main-color);
 }
-.navbar{
-  display: flex; 
+
+.header-category__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
-.navbar a{
-    color: var(--text-color);
-    font-size: var(--p-font);
-    font-weight: 500;
-    margin: 15px 22px;
-    transition: all.50s ease;
+
+.header-category__list-item {
+  margin: 0 1px;
+  padding: 12px 0;
 }
-.navbar a:hover{
+
+.header-category__list-item-link:hover {
   color: var(--main-color);
 }
-.h-right a:first-child{
-  color:var(--text-color);
+
+.header-category__list-item:hover .header-category__list-menu {
+  display: block;
+}
+
+.header-category__list-item-link {
+  color: var(--text-color);
   font-size: var(--p-font);
-  margin-right:20px;
+  font-weight: 500;
+  margin: 15px 22px;
+  transition: all.50s ease;
 }
-.h-right a{
+
+.header-info__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.header-info__list-item {
+  margin: 0 1px;
+  padding: 12px 0;
+}
+
+.header-info__list-item-link {
   vertical-align: middle;
   font-size: 20px;
   color: var(--text-color);
-  margin-right: 18px;
+  margin-right: 5px;
   margin-left: 5px;
   transition: all.50s ease;
 }
-.h-right a:hover{
-  color:var(--main-color);
-  transform: translateY(-3px);
 
+.header-info__list-item-link:hover {
+  color: var(--main-color);
+  transform: translateY(-3px);
 }
 section{
   padding: 70px 17% 60px;
