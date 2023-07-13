@@ -278,6 +278,36 @@ header.sticky{
   transition: all .3s cubic-bezier(.499,cubic-bezier(0.445, 0.05, 0.55, 0.95));
   will-change: filter;
 }
+
+@media (max-width:1200px){
+  header{
+    padding: 14px 5%;
+  }
+  header.sticky{
+    padding:7px 5%;
+  }
+  section{
+    padding:45px 5% 35px;
+  }
+  :root{
+    --h1-font:4.6rem;
+    --h2-font:2.8rem;
+    --p-font:15px;
+  }
+  .home{
+    height: 90vh;
+  }
+}
+@media (max-width:1050px) {
+  .feature-content{
+    gap:1.5rem;
+  }
+  .holiday{
+    gap:3rem;
+  }
+  
+}
+
 /* eat */
 .foodplace {
     margin-bottom: 100px;
