@@ -326,14 +326,13 @@ header.sticky{
 .foodplace .container {
     width: 100%;
     display: grid;
-    margin: 10px 10px 10px 200px;
+    margin: 10px 10px 10px 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 200px 200px 200px 200px;
 
     grid-template-areas:
-        "content content"
-        " content content"
-        " content content";
+        "content content content"
+        " content content content";
 
     column-gap: 10px;
     row-gap: 10px;
@@ -344,7 +343,7 @@ header.sticky{
     padding: 50px;
     grid-area: content;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 5px;
     row-gap: 5px;
 }
