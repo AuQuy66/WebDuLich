@@ -1,0 +1,108 @@
+.content{
+    font-size: 20px;
+}
+.figcaption{
+ font-style: italic;
+ text-align: center;
+
+}
+.content-text{
+    flex-grow: 1;
+}
+.content-right h1{
+    border-bottom: 3px solid gainsboro;
+    margin-bottom:30px; 
+}
+.content-right{
+    flex: 0 0 350px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.point{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card-image{
+    margin-right: 5px;
+}
+.card-text{
+    font-size: 17px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3 ;
+    overflow: hidden;
+    max-height: 80px;
+}
+
+
+/* location */
+.location h1{
+    border-bottom: 3px solid gray;
+    margin: 10px;
+    
+}
+
+.container{
+    /* position: relative;
+    height: 100vh;
+    width: 100%; */
+    max-width: 1200px;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px; 
+    
+}
+.container button {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 999;
+}
+
+.container button:first-child {
+    left: -15px;
+}
+
+.container button:last-child {
+    right: -23px;
+}
+
+.container .carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.container .destination {
+    object-fit: cover;
+    margin-left: 14px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: -1px;
+    top: 0;
+    right: -1px;
+}
+
+.container .location {
+    height: 340px;
+}
+
+
