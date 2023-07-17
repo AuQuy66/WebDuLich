@@ -444,3 +444,25 @@ header.sticky{
   transform: translateX(-5px);
   color: var(--text-color);
 }
+/* cac diem du lich */
+.dd .tb11{
+     
+  margin-left: 15px;
+  padding: 0px;
+  
+}
+.dd .tb1 img{
+  width: 30%;
+  border-radius: 5%;
+  margin: 10px;
+}
+ .dd.tb12{
+  margin-left: 30px;
+}
+.dd{
+  
+  padding: 50px;
+  margin-left: 12%;
+  margin-right:12%;
+}
+
