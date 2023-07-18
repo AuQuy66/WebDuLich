@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" type="text/css" href="../css/eat.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- boxicons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,800&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="sticky">
+        <div class="grid">
+            <div class="header__navbar">
+                <div class="header-navbar__logo">
+                    <a href="#" class="logo">Tra<span>Vel</span></a>
+                </div>
+                <div class="header__category">
+                    <div class="grid">
+                        <div class="grid__row">
+                            <ul class="header-category__list">
+                                <li class="header-category__list-item">
+                                    <a href="../index.html" class="header-category__list-item-link">
+                                        Trang chủ
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="slider_travel.html" class="header-category__list-item-link">
+                                        Địa điểm du lịch
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="#" class="header-category__list-item-link">
+                                        Địa điểm ăn uống
+                                    </a>
+                                </li>
+                            </ul>
+                               <li class="header-category__list-item">
+                                    <a href="" class="header-category__list-item-link">
+                                        Thông tin
+                                    </a>
+                                </li>
+                                <li class="header-category__list-item">
+                                    <a href="" class="header-category__list-item-link">
+                                        Liên hệ với chúng tôi
+                                    </a>
+                                </li>
+                            <ul class="header-info__list">
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        Follow US
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        <i class="ri-facebook-fill"></i>
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="#" class="header-info__list-item-link">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
+                                </li>
+                                <li class="header-info__list-item">
+                                    <a href="https://github.com/AuQuy66/WebDuLich" class="header-info__list-item-link">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home section design -->
+    <section class="homeeat" style="background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../image/eat.jpg);">
+        <div class="home-text">
+            <h1>ĐỊA ĐIỂM ĂN UỐNG</h1>
+        </div>
+    </section>
+    <section class="body">
+        <div class="title">
+            <h1>Hãy lựa chọn điểm đến</h1>
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Nhatrang')" id="defaultOpen">Nha Trang</button>
+                <button class="tablinks" onclick="openCity(event, 'Phuquoc')" id="defaultOpen">Phú Quốc</button>
+                <button class="tablinks" onclick="openCity(event, 'Dalat')" id="defaultOpen">Đà Lạt </button>
+                <button class="tablinks" onclick="openCity(event, 'Quynhon')" id="defaultOpen">Quy Nhơn</button>
+                <button class="tablinks" onclick="openCity(event, 'Danang')" id="defaultOpen">Đà nẵng</button>
+            </div>
+        </div>
+        <div id="Nhatrang" class="tabcontent">
+            <div class="container">
+                <div class="item">
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://cdn.nhatrangbooking.com.vn/images/uploads/an-toi-nha-trang-top.jpg" alt=""
+                                class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="./eatnhatrang.html">
+                                <h2>Top 10 Quán ăn ngon ở Nha Trang đã sưu tầm rất lâu rồi</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://cdn1.nhatrangtoday.vn/images/photos/mon-an-ngon-banh-canh-cha-ca-1.jpg" alt=""
+                                class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Ăn Gì Ở Nha Trang? 13 Món Ăn Ngon Quên Sầu Chỉ Có Ở Nha Trang.</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://cdn.nhatrangbooking.com.vn/uploads/2022/3/e86dcb4d-d459-4448-aca6-2fd16c4a3659-antoinhatrang4.jpg"
+                                class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 10 quán hải sản ở Nha Trang được đánh giá “Rẻ nhưng Ngon”</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Phuquoc" class="tabcontent">
+            <div class="container">
+                <div class="item">
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://dichoiphuquoc.com/wp-content/uploads/2020/04/quan-hai-san-o-duong-dong-phu-quoc-3.2-min.jpg"
+                                alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 10 quán hải sản ở Dương Đông Phú Quốc bạn nhất định phải thử</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://static.vinwonders.com/production/bun-quay-phu-quoc-3.jpg" class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Bún Quậy Phú Quốc – Nên ăn quán nào?, Món này có gì</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://static.vinwonders.com/production/dac-san-phu-quoc-1.jpg" class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Ăn Gì Ở Phú Quốc? Những Món Ăn Ngon Phú Quốc Không Nên Bỏ Lỡ</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Dalat" class="tabcontent">
+            <div class="container">
+                <div class="item">
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://xephangdoanhnghiep.com/wp-content/uploads/2022/06/mon-an-dac-san-da-lat-5-768x614.jpg"
+                                alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 7 Món ăn ngon ở Đà Lạt – Dành cho tín đồ hệ “Ẩm Thực”</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://diachiamthuc.vn/wp-content/uploads/2022/02/banh-uot-long-ga-thao.png"
+                                class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 6 quán bánh ướt lòng gà Đà Lạt – Ngon nức tiếng, ăn là ghiền</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://ednaresort.vn/wp-content/uploads/2022/01/an-vat-da-lat-1024x819.png"
+                                class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Món ăn vặt ở chợ đêm Đà Lạt – Nhất định đừng bỏ sót món nào</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Quynhon" class="tabcontent">
+            <div class="container">
+                <div class="item">
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://cdn.alongwalk.info/vn/wp-content/uploads/2022/04/07061059/image-me-man-voi-top-6-quan-banh-xeo-tom-nhay-quy-nhon-164926145930337.jpg"
+                                alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 5 Quán bánh xèo tôm nhảy Quy Nhơn – Trứ danh, khiến du khách mê mẫn</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://cdn.alongwalker.info/img/2020/9/25/d6b026a1df2c2ce90fe8954b33c2ab12.jpg"
+                                class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>List 6 món ăn ngon ở Quy Nhơn – Khiến bạn phải thỏa cái “bụng” của mình
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src=" https://bazantravel.com/cdn/medias/uploads/83/83790-quan-an-ngon-quy-nhon-binh-dinh-700x700.jpg"
+                                class="img">
+
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Top 15 quán ăn ngon ở Quy Nhơn nhất định phải thử một lần
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Danang" class="tabcontent">
+            <div class="container">
+                <div class="item">
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://i.vietgiaitri.com/2020/5/22/xuyt-xoa-voi-05-mon-an-ngon-cua-da-nang-khach-du-lich-phai-biet-33d-4951619.jpeg"
+                                alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>10+ Món ăn đặc sản ngon ở Đà Nẵng, khiến du khách phải xuýt xoa</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://statics.vinpearl.com/dac-san-da-nang-1.jpg" alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>Đi đâu, ăn gì ở Đà Nẵng</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="imgeat">
+                            <img src="https://statics.vinpearl.com/dac-san-da-nang-4%201.jpg" alt="" class="img">
+                        </div>
+
+                        <div class="place">
+                            <a href="">
+                                <h2>15 đặc sản Đà Nẵng ăn là mê khi du lịch Đà Nẵng</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <!-- footer section design -->
+    <section class="footer">
+        <div class="footer-box">
+            <h3>About</h3>
+            <a href="#">Team</a>
+            <a href="#">Offline</a>
+            <a href="#">Github</a>
+
+        </div>
+        <div class="footer-box">
+            <h3>Help</h3>
+            <a href="#">Email</a>
+            <a href="#">Phone</a>
+            <a href="#">Information</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="footer-box">
+            <h3>Social</h3>
+            <div class="social">
+                <a><i class="ri-facebook-fill"></i></a>
+                <a><i class="ri-instagram-line"></i></a>
+                <a href="https://github.com/AuQuy66/WebDuLich"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js file link -->
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+
+</body>
+
+</html>
