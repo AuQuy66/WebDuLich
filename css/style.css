@@ -309,11 +309,6 @@ header.sticky{
 }
 
 /* eat */
-.foodplace {
-/*     margin-bottom: 100px;
-    padding: 50px 100px; */
-}
-
 
 .foodplace .section-heading {
     color: var(--main-color);
@@ -328,7 +323,6 @@ header.sticky{
     display: grid;
     margin: 10px 10px 10px 10px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px 200px 200px;
 
     grid-template-areas:
         "content content content"
