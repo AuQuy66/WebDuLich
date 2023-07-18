@@ -64,8 +64,6 @@
     display: grid;
     margin: 10px 10px 10px 10px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 200px 200px 200px;
-
     grid-template-areas:
         "content content content"
         "content content content";
