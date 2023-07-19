@@ -432,6 +432,7 @@ header.sticky{
   display: grid;
   grid-template-columns: repeat(3, 33.333333%);
   gap:2rem;
+  background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://wowcher.vn/wp-content/uploads/2022/02/Voucher-du-thuyen-ha-long.webp) ;
   
 }
 .footer-box{
